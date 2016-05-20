@@ -87,7 +87,8 @@ source $ZSH/oh-my-zsh.sh
 #change shell environment
 alias cdc="cd ~/Works/WYHL/"
 alias cdcc="cd ~/Works/WYHL/service_count/shell/"
-alias cdd="cd ~/Documents/WYHL/"
+alias cddc="cd ~/Documents/"
+alias cddl="cd ~/Downloads/"
 alias cdt="cd ~/WorkTemp/"
 alias cds="cd /home/luoziyihao/Works/script_code/shellManage"
 alias cdlog="cd /usr/local/share/tomcat/apache-tomcat-8.0.32/logs"
