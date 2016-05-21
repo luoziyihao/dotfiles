@@ -3,5 +3,8 @@
 *.tmp
 *tmp
 /dircolors_solarized
+dircolors_solarized/*
 /gnome_terminal_colors_solarized
+gnome_terminal_colors_solarized/*
 /oh_my_zsh 
+oh_my_zsh/*
