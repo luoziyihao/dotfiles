@@ -13,6 +13,8 @@ git clone https://github.com/luoziyihao/dotfiles.git # get source
 cd dotfiles
 ./set_env.sh
 ```
+now, enjoy it !
+
 ### change backgroud
 
 light solarized
