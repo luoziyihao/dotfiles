@@ -50,7 +50,7 @@
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git web-search vi-mode themes tmux tmux-cssh tmuxinator)
+plugins=(colorize git last-working-dir extract z web-search vi-mode themes tmux)
 
 # User configuration
 
@@ -106,11 +106,17 @@ dircolors_solarized_dest=$MY_HOME"/.dir_colors"
 # set  dircolors
 # mk dircolorsdb
 eval `dircolors ${dircolors_solarized_dest}`
+# pdf reader
+alias pdf="evince"
+# colorize
+alias cat="colorize"
+# libreoffice
+alias ofc="libreoffice"
 
+#echo $PASSWORD  | sudo -S xxx $1
+#ibus-daemon -d -x -r
 #切换到vi模式
 # set -o vi
 #切换到emacs模式
 #set -o emacs  
 #PASSWORD=rxsgsjb111
-#echo $PASSWORD  | sudo -S xxx $1
-#ibus-daemon -d -x -r
