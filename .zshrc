@@ -50,7 +50,7 @@
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(colorize git last-working-dir extract z web-search vi-mode themes tmux)
+plugins=(colorize git extract z web-search vi-mode themes tmux)
 
 # User configuration
 
