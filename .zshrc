@@ -112,6 +112,8 @@ alias pdf="evince"
 alias cat="colorize"
 # libreoffice
 alias ofc="libreoffice"
+# mkd
+alias mkd="retext"
 
 #echo $PASSWORD  | sudo -S xxx $1
 #ibus-daemon -d -x -r
