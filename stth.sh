@@ -42,3 +42,6 @@ ln -fs ${DOTFILES}"/.vimrc_"${set_bg} ${MY_HOME}"/.vimrc"
 dircolors_solarized=$DOTFILES"/dircolors_solarized"
 dircolors_solarized_dest=$MY_HOME"/.dir_colors"
 ln -fs ${dircolors_solarized}"/dircolors.ansi-"${set_bg} ${dircolors_solarized_dest}
+
+#.z
+ln -fs ~/dotfiles/.z ~/.z
