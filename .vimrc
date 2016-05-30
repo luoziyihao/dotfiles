@@ -84,6 +84,8 @@ Bundle 'airblade/vim-gitgutter'
 Bundle 'Shougo/unite.vim'
 " Python and other languages code checker
 Bundle 'scrooloose/syntastic'
+" markdown colorscheme
+Bundle 'plasticboy/vim-markdown'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
