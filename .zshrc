@@ -109,7 +109,7 @@ eval `dircolors ${dircolors_solarized_dest}`
 # pdf reader
 alias pdf="evince"
 # colorize
-alias cat="colorize"
+alias catt="colorize"
 # libreoffice
 alias ofc="libreoffice"
 # mkd
