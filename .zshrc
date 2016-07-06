@@ -98,6 +98,7 @@ alias cdibk="cd /home/luoziyihao/Documents/WYHL/ctradebook2"
 alias sshpro="ssh root@cms.qilin99.com" 
 alias sshtst="ssh root@500win.cn"
 alias sshone="ssh ubuntu@ec2-52-79-179-229.ap-northeast-2.compute.amazonaws.com"
+alias mysql="mysql -uroot"
 #set default editor
 export EDITOR=/usr/bin/vi
 
