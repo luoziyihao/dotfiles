@@ -118,6 +118,10 @@ alias ofc="libreoffice"
 # mkd
 alias mkd="retext"
 
+# environment
+JAVA_HOME="/usr/local/share/jvm/jdk1.8/jdk1.8.0_73"
+export JAVA_HOME
+#
 #echo $PASSWORD  | sudo -S xxx $1
 #ibus-daemon -d -x -r
 #切换到vi模式
