@@ -118,6 +118,7 @@ alias catt="colorize"
 alias ofc="libreoffice"
 # mkd
 alias mkd="retext"
+alias cdnutch_l="/usr/local/share/nutch/apache-nutch-1.10-src/apache-nutch-1.10/runtime/local/bin"
 
 # environment
 JAVA_HOME="/usr/local/share/jvm/jdk1.8/jdk1.8.0_73"
