@@ -118,7 +118,14 @@ alias catt="colorize"
 alias ofc="libreoffice"
 # mkd
 alias mkd="retext"
+alias cdnutch_l="/usr/local/share/nutch/apache-nutch-1.10-src/apache-nutch-1.10/runtime/local/bin"
 
+# environment
+JAVA_HOME="/usr/local/share/jvm/jdk1.8/jdk1.8.0_73"
+export JAVA_HOME
+JAVA8_HOME="/usr/local/share/jvm/jdk1.8/jdk1.8.0_73"
+export JAVA8_HOME
+#
 #echo $PASSWORD  | sudo -S xxx $1
 #ibus-daemon -d -x -r
 #切换到vi模式
