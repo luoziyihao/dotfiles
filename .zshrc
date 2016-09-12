@@ -97,7 +97,7 @@ alias cdsql="cd ~/Documents/WYHL/sql"
 alias cdibk="cd ~/Documents/WYHL/ctradebook2"
 alias sshpro="ssh root@cms.qilin99.com" 
 alias sshtst="ssh root@500win.cn"
-alias sshone="ssh ubuntu@ec2-52-79-179-229.ap-northeast-2.compute.amazonaws.com"
+alias sshone="ssh ubuntu@52.78.51.209"
 alias mysql="mysql -uroot"
 alias vr="vim -R "
 #set default editor
