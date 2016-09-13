@@ -125,6 +125,9 @@ JAVA_HOME="/usr/local/share/jvm/jdk1.8/jdk1.8.0_73"
 export JAVA_HOME
 JAVA8_HOME="/usr/local/share/jvm/jdk1.8/jdk1.8.0_73"
 export JAVA8_HOME
+
+export APACHE_SOLR_HOME=/usr/local/share/solr/solr-4.10.4/solr-4.10.4
+export NUTCH_RUNTIME_HOME=/usr/local/share/nutch/apache-nutch-1.10-src/apache-nutch-1.10/runtime/local
 #
 #echo $PASSWORD  | sudo -S xxx $1
 #ibus-daemon -d -x -r
