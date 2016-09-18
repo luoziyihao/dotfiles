@@ -121,10 +121,18 @@ alias mkd="retext"
 alias cdnutch_l="/usr/local/share/nutch/apache-nutch-1.10-src/apache-nutch-1.10/runtime/local/bin"
 
 # environment
-JAVA_HOME="/usr/local/share/jvm/jdk1.8/jdk1.8.0_73"
-export JAVA_HOME
 JAVA8_HOME="/usr/local/share/jvm/jdk1.8/jdk1.8.0_73"
 export JAVA8_HOME
+
+export JAVA_HOME="/usr/local/share/jvm/jdk1.8/jdk1.8.0_73"
+export CLASSPATH=.:$JAVA_HOME/jre/lib/rt.jar:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
+export PATH=$PATH:$JAVA_HOME/bin
+
+export GOROOT=/usr/local/share/go/go
+export GOPATH=/usr/local/share/go/gopackage
+export PATH=$PATH:$GOROOT/bin/:$GOPATH/bin
+
+export PATH=$PATH:/usr/local/share/mongodb/mongodb-linux-x86_64-ubuntu1604-3.2.9/bin
 
 export APACHE_SOLR_HOME=/usr/local/share/solr/solr-4.10.4/solr-4.10.4
 export NUTCH_RUNTIME_HOME=/usr/local/share/nutch/apache-nutch-1.10-src/apache-nutch-1.10/runtime/local
