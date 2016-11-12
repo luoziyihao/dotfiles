@@ -136,6 +136,7 @@ export PATH=$PATH:/usr/local/share/mongodb/mongodb-linux-x86_64-ubuntu1604-3.2.9
 
 export APACHE_SOLR_HOME=/usr/local/share/solr/solr-4.10.4/solr-4.10.4
 export NUTCH_RUNTIME_HOME=/usr/local/share/nutch/apache-nutch-1.10-src/apache-nutch-1.10/runtime/local
+export TESSDATA_PREFIX=/usr/local/share/tessdata
 #
 #echo $PASSWORD  | sudo -S xxx $1
 #ibus-daemon -d -x -r
@@ -144,3 +145,8 @@ export NUTCH_RUNTIME_HOME=/usr/local/share/nutch/apache-nutch-1.10-src/apache-nu
 #切换到emacs模式
 #set -o emacs  
 #PASSWORD=rxsgsjb111
+
+# export NVM_DIR="/home/luoziyihao/.nvm"
+# [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+# 
+# export NVM_NODEJS_ORG_MIRROR=https://npm.taobao.org/mirrors/node
