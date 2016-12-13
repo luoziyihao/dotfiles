@@ -122,10 +122,11 @@ alias cdnutch_l="/usr/local/share/nutch/apache-nutch-1.10-src/apache-nutch-1.10/
 alias nrun="npm run"
 
 # environment
-JAVA8_HOME="/usr/local/share/jvm/jdk1.8/jdk1.8.0_73"
+JAVA8_HOME="/usr/local/share/jvm/jdk1.8.0_111/"
 export JAVA8_HOME
 
-export JAVA_HOME="/usr/local/share/jvm/jdk1.8/jdk1.8.0_73"
+export JAVA_HOME=${JAVA8_HOME}
+# export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 export CLASSPATH=.:$JAVA_HOME/jre/lib/rt.jar:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
 export PATH=$PATH:$JAVA_HOME/bin
 
@@ -151,3 +152,4 @@ export TESSDATA_PREFIX=/usr/local/share/tessdata
 # [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 # 
 # export NVM_NODEJS_ORG_MIRROR=https://npm.taobao.org/mirrors/node
+# source /usr/local/src/nvm/nvm.sh
