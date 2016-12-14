@@ -149,6 +149,6 @@ export TESSDATA_PREFIX=/usr/local/share/tessdata
 #PASSWORD=rxsgsjb111
 
 # add for nvm start
-export NVM_DIR="/home/ubuntu/.nvm"
+export NVM_DIR=${HOME}"/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 # add for nvm end
