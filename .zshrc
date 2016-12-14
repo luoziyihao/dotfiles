@@ -98,7 +98,7 @@ alias cdibk="cd ~/Documents/WYHL/ctradebook2"
 alias sshpro="ssh root@cms.qilin99.com" 
 alias sshtst="ssh root@500win.cn"
 alias sshone="ssh ubuntu@52.78.51.209"
-alias mysql="mysql -uroot"
+alias mysql="mysql -uroot -p123"
 alias vr="vim -R "
 #set default editor
 export EDITOR=/usr/bin/vi
