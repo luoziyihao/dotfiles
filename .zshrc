@@ -148,8 +148,7 @@ export TESSDATA_PREFIX=/usr/local/share/tessdata
 #set -o emacs  
 #PASSWORD=rxsgsjb111
 
-# export NVM_DIR="/home/luoziyihao/.nvm"
-# [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
-# 
-# export NVM_NODEJS_ORG_MIRROR=https://npm.taobao.org/mirrors/node
-# source /usr/local/src/nvm/nvm.sh
+# add for nvm start
+export NVM_DIR="/home/ubuntu/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+# add for nvm end
