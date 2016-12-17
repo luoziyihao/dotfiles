@@ -54,8 +54,16 @@ ln -fs ${DOTFILES}"/.tmux.conf" ${MY_HOME}"/.tmux.conf"
 ln -fs ${DOTFILES}"/.vimrc" ${MY_HOME}"/.vimrc"
 ln -fs ${DOTFILES}"/.ycm_extra_conf.py" ${MY_HOME}"/.ycm_extra_conf.py"
 ln -fs ${DOTFILES}"/.zshrc" ${MY_HOME}"/.zshrc"
-ln -fs ${DOTFILES}"/.npmrc" ${MY_HOME}"/.npmrc"
 ln -fs ${oh_my_zsh} ${oh_my_zsh_dest}
+
+# mvn mirror
+sudo mkdir -p /etc/maven
+sudo cp /etc/maven/settings.xml /etc/maven/settings.xml.bak
+ln -fs ${DOTFILES}"/.settings.xml" "/etc/maven/settings.xml"
+
+
+# npm mirror
+ln -fs ${DOTFILES}"/.npmrc" ${MY_HOME}"/.npmrc"
 
 #ok
 echo "ok"
