@@ -7,7 +7,7 @@
 #!/bin/bash
 
 sudo apt-get install zsh
-sudo usermod -s /bin/zsh ` who|awk '{print($1)}'`
+sudo usermod -s /bin/zsh `who|awk '{print($1)}'`
 sudo apt-get install tmux
  
 MY_HOME=${HOME}
@@ -59,7 +59,7 @@ ln -fs ${oh_my_zsh} ${oh_my_zsh_dest}
 # mvn mirror
 sudo mkdir -p /etc/maven
 sudo cp /etc/maven/settings.xml /etc/maven/settings.xml.bak
-ln -fs ${DOTFILES}"/.settings.xml" "/etc/maven/settings.xml"
+ln -fs ${DOTFILES}"/settings.xml" "/etc/maven/settings.xml"
 
 
 # npm mirror
