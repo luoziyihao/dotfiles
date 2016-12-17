@@ -125,7 +125,8 @@ alias cdnutch_l="/usr/local/share/nutch/apache-nutch-1.10-src/apache-nutch-1.10/
 alias nrun="npm run"
 
 # environment
-JAVA8_HOME="/usr/local/share/jvm/jdk1.8.0_111/"
+# JAVA8_HOME="/usr/local/share/jvm/jdk1.8.0_111/"
+JAVA8_HOME="/usr/local/share/jvm/jdk1.8/jdk1.8.0_73"
 export JAVA8_HOME
 
 export JAVA_HOME=${JAVA8_HOME}
