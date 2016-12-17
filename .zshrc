@@ -132,7 +132,8 @@ export JAVA8_HOME
 export JAVA_HOME=${JAVA8_HOME}
 # export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 export CLASSPATH=.:$JAVA_HOME/jre/lib/rt.jar:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
-export PATH=$PATH:$JAVA_HOME/bin
+# set JAVA_HOME FRONT to explace the default java version
+export PATH=$JAVA_HOME/bin:$PATH
 
 export GOROOT=/usr/local/share/go/go
 export GOPATH=/usr/local/share/go/gopackage
