@@ -40,3 +40,9 @@ source ~/.zshrc
 command -v nvm
 nvm install node
 nvm use node
+
+# jekins
+mkdir -p /data/tools
+#scp jenkins lib
+# sudo dpkg -i *.deb
+# apt-get -f install

@@ -59,7 +59,7 @@ ln -fs ${oh_my_zsh} ${oh_my_zsh_dest}
 # mvn mirror
 sudo mkdir -p /etc/maven
 sudo cp /etc/maven/settings.xml /etc/maven/settings.xml.bak
-ln -fs ${DOTFILES}"/settings.xml" "/etc/maven/settings.xml"
+sudo ln -fs ${DOTFILES}"/settings.xml" "/etc/maven/settings.xml"
 
 
 # npm mirror
