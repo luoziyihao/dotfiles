@@ -46,3 +46,8 @@ mkdir -p /data/tools
 #scp jenkins lib
 # sudo dpkg -i *.deb
 # apt-get -f install
+# add plugin
+# SSH plugin # gitplugin
+# add ssh # ssh-keygen -t rsa # cp ~/.ssh/* /var/lib/jenkins/.ssh/
+# add build webhook
+# 
