@@ -43,4 +43,10 @@ dark solarized
 ```
 stth dk 
 ```
+
+### use mvn settings.xml
+```
+clean package deploy -s /etc/maven/settings.xml
+```
 ### thanks for having read it.
+
