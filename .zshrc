@@ -139,7 +139,7 @@ export GOROOT=/usr/local/share/go/go
 export GOPATH=/usr/local/share/go/gopackage
 export PATH=$PATH:$GOROOT/bin/:$GOPATH/bin
 
-export PATH=$PATH:/usr/local/share/mongodb/mongodb-linux-x86_64-ubuntu1604-3.2.9/bin
+export PATH=$PATH:/usr/local/share/mongodb/mongodb-linux-x86_64-ubuntu1604-3.4.1/bin
 
 export APACHE_SOLR_HOME=/usr/local/share/solr/solr-4.10.4/solr-4.10.4
 export NUTCH_RUNTIME_HOME=/usr/local/share/nutch/apache-nutch-1.10-src/apache-nutch-1.10/runtime/local
