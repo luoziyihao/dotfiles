@@ -160,6 +160,12 @@ under the License.
       <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
       <mirrorOf>central</mirrorOf>        
     </mirror>
+    <mirror>
+      <id>spring-snapshots</id>
+      <name>Spring Snapshots</name>
+      <url>https://repo.spring.io/libs-snapshot</url>
+      <mirrorOf>central</mirrorOf>        
+    </mirror>
     <!-- mirror
      | Specifies a repository mirror site to use instead of a given repository. The repository that
      | this mirror serves has an ID that matches the mirrorOf element of this mirror. IDs are used
