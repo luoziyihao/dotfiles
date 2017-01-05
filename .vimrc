@@ -504,43 +504,15 @@ map <leader>md <Esc>:MarkdownPreview<CR>
  
      if &filetype == 'sh' 
  
-         call setline(1,"\#########################################################################") 
- 
-         call append(line("."), "\# File Name: ".expand("%")) 
- 
-         call append(line(".")+1, "\# Author: raoxiang") 
- 
-         call append(line(".")+2, "\# mail: xiangrao@qilin99.com") 
- 
-         "张鹏  原来的时间形式比较复杂,不喜欢,改变一下
- 
+         call setline(1,"\#!/bin/bash") 
+         call append(line("."), "\#########################################################################") 
+         call append(line(".")+1, "\# File Name: ".expand("%")) 
+         call append(line(".")+2, "\# Author: raoxiang") 
+         call append(line(".")+3, "\# mail: xiangrao@qilin99.com") 
          "call append(line(".")+3, "\# Created Time: ".strftime("%c")) 
-         call append(line(".")+3, "\# Created Time: ".strftime("%Y-%m-%d",localtime()))
- 
-         call append(line(".")+4, "\#########################################################################") 
- 
-         call append(line(".")+5, "\#!/bin/bash") 
- 
+         call append(line(".")+4, "\# Created Time: ".strftime("%Y-%m-%d",localtime()))
+         call append(line(".")+5, "\#########################################################################") 
          call append(line(".")+6, "") 
- 
-     else 
- 
-         call setline(1, "/*************************************************************************") 
- 
-         call append(line("."), "    > File Name: ".expand("%")) 
- 
-         call append(line(".")+1, "    > Author: raoxiang") 
- 
-         call append(line(".")+2, "    > mail: xiangrao@qilin99.com") 
- 
-         " 同样的 改变时间格式
-         "call append(line(".")+3, "    > Created Time: ".strftime("%c")) 
-         call append(line(".")+3, "    > Created Time: ".strftime("%Y-%m-%d",localtime()))
- 
-         call append(line(".")+4, " ************************************************************************/") 
- 
-         call append(line(".")+5, "")
- 
      endif
  
      if &filetype == 'cpp'
