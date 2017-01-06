@@ -84,7 +84,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
-#change shell environment
+#alias start
+#
 alias cdc="cd ~/Works/WYHL/"
 alias cdcc="cd ~/Works/WYHL/service_count/shell/"
 alias cddc="cd ~/Documents/"
@@ -104,16 +105,6 @@ alias sshtwo="ssh 'root@123.56.6.229'"
 # alias mysql="mysql -uroot"
 alias mysql="mysql -uroot -p123"
 alias vr="vim -R "
-#set default editor
-export EDITOR=/usr/bin/vi
-
-#set dircolors_solarized
-MY_HOME=${HOME}
-# 在对目录做阮链接的时候也不要用 '/', 尤其是目的的目录不要接'/'
-dircolors_solarized_dest=$MY_HOME"/.dir_colors"
-# set  dircolors
-# mk dircolorsdb
-eval `dircolors ${dircolors_solarized_dest}`
 # pdf reader
 alias pdf="evince"
 # colorize
@@ -124,14 +115,16 @@ alias ofc="libreoffice"
 alias mkd="retext"
 alias cdnutch_l="/usr/local/share/nutch/apache-nutch-1.10-src/apache-nutch-1.10/runtime/local/bin"
 alias nrun="npm run"
-
-# environment
-# JAVA8_HOME="/usr/local/share/jvm/jdk1.8.0_111/"
-JAVA8_HOME="/usr/local/share/jvm/jdk1.8/jdk1.8.0_73"
+alias emacs="emacs -nw"
+#alias end
+#
+# environment start
+#set default editor
+export EDITOR=/usr/bin/vi
+JAVA8_HOME="/usr/local/share/jvm/jdk1.8/default"
 export JAVA8_HOME
 
 export JAVA_HOME=${JAVA8_HOME}
-# export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 export CLASSPATH=.:$JAVA_HOME/jre/lib/rt.jar:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
 # set JAVA_HOME FRONT to explace the default java version
 export PATH=$JAVA_HOME/bin:$PATH
@@ -145,6 +138,10 @@ export PATH=$PATH:/usr/local/share/mongodb/default/bin
 export APACHE_SOLR_HOME=/usr/local/share/solr/solr-4.10.4/solr-4.10.4
 export NUTCH_RUNTIME_HOME=/usr/local/share/nutch/apache-nutch-1.10-src/apache-nutch-1.10/runtime/local
 export TESSDATA_PREFIX=/usr/local/share/tessdata
+
+# environment end
+#
+# script start
 #
 #echo $PASSWORD  | sudo -S xxx $1
 #ibus-daemon -d -x -r
@@ -154,7 +151,17 @@ export TESSDATA_PREFIX=/usr/local/share/tessdata
 #set -o emacs  
 #PASSWORD=rxsgsjb111
 
+#set dircolors_solarized
+MY_HOME=${HOME}
+# 在对目录做阮链接的时候也不要用 '/', 尤其是目的的目录不要接'/'
+dircolors_solarized_dest=$MY_HOME"/.dir_colors"
+# set  dircolors
+# mk dircolorsdb
+eval `dircolors ${dircolors_solarized_dest}`
+
 # add for nvm start # rm the comment when use
 # export NVM_DIR=${HOME}"/.nvm"
 # [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 # add for nvm end
+#
+# script start end
