@@ -116,6 +116,7 @@ alias mkd="retext"
 alias cdnutch_l="/usr/local/share/nutch/apache-nutch-1.10-src/apache-nutch-1.10/runtime/local/bin"
 alias nrun="npm run"
 alias emacs="emacs -nw"
+alias lispbox="/usr/local/share/lisp/lispbox/default/lispbox.sh"
 #alias end
 #
 # environment start
