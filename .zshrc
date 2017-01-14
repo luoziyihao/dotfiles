@@ -165,4 +165,6 @@ eval `dircolors ${dircolors_solarized_dest}`
 # [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 # add for nvm end
 #
+
+/home/luoziyihao/start.sh
 # script start end
