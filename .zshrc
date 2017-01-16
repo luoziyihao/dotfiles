@@ -166,5 +166,5 @@ eval `dircolors ${dircolors_solarized_dest}`
 # add for nvm end
 #
 
-/home/luoziyihao/start.sh
+${MY_HOME}/start.sh
 # script start end
