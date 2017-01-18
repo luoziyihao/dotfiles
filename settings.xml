@@ -166,6 +166,12 @@ under the License.
       <url>https://repo.spring.io/libs-snapshot</url>
       <mirrorOf>central</mirrorOf>        
     </mirror>
+    <mirror>
+      <id>apache repo</id>
+      <name>apache repo</name>
+      <url>http://repo.maven.apache.org/maven2/</url>
+      <mirrorOf>central</mirrorOf>        
+    </mirror>
     <!-- mirror
      | Specifies a repository mirror site to use instead of a given repository. The repository that
      | this mirror serves has an ID that matches the mirrorOf element of this mirror. IDs are used
