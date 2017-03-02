@@ -117,6 +117,7 @@ alias cdnutch_l="/usr/local/share/nutch/apache-nutch-1.10-src/apache-nutch-1.10/
 alias nrun="npm run"
 alias emacs="emacs -nw"
 alias lispbox="/usr/local/share/lisp/lispbox/default/lispbox.sh"
+alias node = "node --harmony"
 #alias end
 #
 # environment start
