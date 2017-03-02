@@ -64,6 +64,7 @@ Bundle 'jiangmiao/auto-pairs'
 Bundle 'iamcco/markdown-preview.vim'
 "luoziyihao/my_fisa
 Bundle 'luoziyihao/my_fisa'
+Bundle 'wombat256.vim'
 "altercation/vim-colors-solarized
 Bundle 'altercation/vim-colors-solarized'
 "Valloric/YouCompleteMe
@@ -126,15 +127,15 @@ else
 endif
 
 " colors for gvim
-if has('gui_running')
-    colorscheme wombat256
-endif
+"if has('gui_running')
+"    colorscheme wombat256mod
+"endif
 " ============================pre plugin cfg================================================
 
 "*********************************************插件配置*****************************************
 "solarized------------------------------
 let g:solarized_termtrans = 1
-colorscheme solarized
+" colorscheme solarized
 " togglebg#map("<F5>")
 set background=light
 "solarized------------------------------
