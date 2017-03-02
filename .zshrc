@@ -122,10 +122,8 @@ alias lispbox="/usr/local/share/lisp/lispbox/default/lispbox.sh"
 # environment start
 #set default editor
 export EDITOR=/usr/bin/vi
-JAVA8_HOME="/usr/local/share/jvm/jdk1.8/default"
-export JAVA8_HOME
 
-export JAVA_HOME=${JAVA8_HOME}
+export JAVA_HOME=/usr/local/share/jvm/default
 export CLASSPATH=.:$JAVA_HOME/jre/lib/rt.jar:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
 # set JAVA_HOME FRONT to explace the default java version
 export PATH=$JAVA_HOME/bin:$PATH
