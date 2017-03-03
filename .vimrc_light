@@ -68,7 +68,7 @@ Bundle 'wombat256.vim'
 "altercation/vim-colors-solarized
 Bundle 'altercation/vim-colors-solarized'
 "Valloric/YouCompleteMe
-Bundle 'Valloric/YouCompleteMe'
+"Bundle 'Valloric/YouCompleteMe'
 "Tagbar
 Bundle 'majutsushi/tagbar'
 "ariline
@@ -120,16 +120,17 @@ endif
 if &term =~? 'mlterm\|xterm\|xterm-256\|screen-256'
 	let &t_Co = 256
     " colorscheme fisa
-    colorscheme solarized
-    "colorscheme molokai
+    " colorscheme molokai
+    " colorscheme solarized
+    colorscheme wombat256mod
 else
     colorscheme delek
 endif
 
-" colors for gvim
-"if has('gui_running')
-"    colorscheme wombat256mod
-"endif
+if has('gui_running')
+    colorscheme wombat256mod
+endif
+
 " ============================pre plugin cfg================================================
 
 "*********************************************插件配置*****************************************
