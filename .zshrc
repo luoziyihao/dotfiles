@@ -117,7 +117,8 @@ alias cdnutch_l="/usr/local/share/nutch/apache-nutch-1.10-src/apache-nutch-1.10/
 alias nrun="npm run"
 alias emacs="emacs -nw"
 alias lispbox="/usr/local/share/lisp/lispbox/default/lispbox.sh"
-alias node="node --harmony"
+alias nodes="node --harmony"
+alias topdf="home/luoziyihao/Downloads/wkhtmltox/bin/wkhtmltopdf "
 #alias end
 #
 # environment start
@@ -158,12 +159,6 @@ dircolors_solarized_dest=$MY_HOME"/.dir_colors"
 # set  dircolors
 # mk dircolorsdb
 eval `dircolors ${dircolors_solarized_dest}`
-
-# add for nvm start # rm the comment when use
-# export NVM_DIR=${HOME}"/.nvm"
-# [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
-# add for nvm end
-#
 
 ${MY_HOME}/start.sh
 # script start end
