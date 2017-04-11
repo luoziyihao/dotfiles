@@ -167,3 +167,11 @@ ${MY_HOME}/start.sh
 # export NVM_NODEJS_ORG_MIRROR=https://npm.taobao.org/mirrors/node
 # [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 
+
+# Load pyenv automatically by adding
+# the following to ~/.zshrc:
+
+export PATH="/home/luoziyihao/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+export PYENV_VIRTUALENV_DISABLE_PROMPT=1

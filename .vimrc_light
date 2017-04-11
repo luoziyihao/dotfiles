@@ -68,7 +68,7 @@ Bundle 'wombat256.vim'
 "altercation/vim-colors-solarized
 Bundle 'altercation/vim-colors-solarized'
 "Valloric/YouCompleteMe
-"Bundle 'Valloric/YouCompleteMe'
+Bundle 'Valloric/YouCompleteMe'
 "Tagbar
 Bundle 'majutsushi/tagbar'
 "ariline
@@ -87,6 +87,8 @@ Bundle 'Shougo/unite.vim'
 Bundle 'scrooloose/syntastic'
 " markdown colorscheme
 Bundle 'tpope/vim-markdown'
+" beancount
+Bundle 'nathangrigg/vim-beancount'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
