@@ -120,6 +120,7 @@ alias lispbox="/usr/local/share/lisp/lispbox/default/lispbox.sh"
 alias nodes="node --harmony"
 alias topdf="home/luoziyihao/Downloads/wkhtmltox/bin/wkhtmltopdf "
 alias cr="rsync --delete-before  -aHv --progress  --stats /tmp/empty/ "
+alias dudu="read dir && ls -a $dir |sed -e '/^\.$/d' -e '/^\.\.$/d' | xargs -i du -ms {}|sort -n |tee capacity.log   "
 #alias end
 #
 # environment start
