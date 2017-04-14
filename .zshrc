@@ -119,6 +119,7 @@ alias emacs="emacs -nw"
 alias lispbox="/usr/local/share/lisp/lispbox/default/lispbox.sh"
 alias nodes="node --harmony"
 alias topdf="home/luoziyihao/Downloads/wkhtmltox/bin/wkhtmltopdf "
+alias cr="rsync --delete-before  -aHv --progress  --stats /tmp/empty/ "
 #alias end
 #
 # environment start
