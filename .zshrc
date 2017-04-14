@@ -119,7 +119,7 @@ alias emacs="emacs -nw"
 alias lispbox="/usr/local/share/lisp/lispbox/default/lispbox.sh"
 alias nodes="node --harmony"
 alias topdf="home/luoziyihao/Downloads/wkhtmltox/bin/wkhtmltopdf "
-alias cr="rsync --delete-before  -aHv --progress  --stats /tmp/empty/ "
+alias cr="mkdir -p /tmp/empty && rsync --delete-before  -aHv --progress  --stats /tmp/empty/ "
 alias dudu="ls -a  |sed -e '/^.$/d' -e '/^..$/d' | xargs -i du -ms {}|sort -n |tee "/tmp/.capacity.`date  "+%Y-%m-%d_%H-%M-%S"`.log""
 #alias end
 #
