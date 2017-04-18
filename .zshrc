@@ -121,6 +121,7 @@ alias nodes="node --harmony"
 alias topdf="home/luoziyihao/Downloads/wkhtmltox/bin/wkhtmltopdf "
 alias cr="mkdir -p /tmp/empty && rsync --delete-before  -aHv --progress  --stats /tmp/empty/ "
 alias dudu="ls -a  |sed -e '/^.$/d' -e '/^..$/d' | xargs -i du -ms {}|sort -n |tee "/tmp/.capacity.`date  "+%Y-%m-%d_%H-%M-%S"`.log""
+alias jude="java -jar /usr/local/share/jude/default/jude-community.jar  > /dev/null &"
 #alias end
 #
 # environment start
