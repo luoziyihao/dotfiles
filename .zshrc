@@ -178,3 +178,5 @@ export PATH="/home/luoziyihao/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 export PYENV_VIRTUALENV_DISABLE_PROMPT=1
+
+export  M3_HOME=/usr/local/share/mvn/default/bin
