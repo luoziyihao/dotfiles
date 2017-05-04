@@ -181,3 +181,5 @@ export PYENV_VIRTUALENV_DISABLE_PROMPT=1
 export PYTHON_CONFIGURE_OPTS="--enable-shared"
 
 export  M3_HOME=/usr/local/share/mvn/default/bin
+
+export VIMRUNTIME=/usr/share/vim/vim80
