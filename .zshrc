@@ -143,6 +143,8 @@ export APACHE_SOLR_HOME=/usr/local/share/solr/solr-4.10.4/solr-4.10.4
 export NUTCH_RUNTIME_HOME=/usr/local/share/nutch/apache-nutch-1.10-src/apache-nutch-1.10/runtime/local
 export TESSDATA_PREFIX=/usr/local/share/tessdata
 
+export PATH=/usr/local/n/versions/node/defalut/bin:$PATH
+
 # environment end
 #
 # script start
