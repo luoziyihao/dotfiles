@@ -66,5 +66,6 @@ sudo ln -fs ${DOTFILES}"/settings.xml" "/etc/maven/settings.xml"
 ln -fs ${DOTFILES}"/.npmrc" ${MY_HOME}"/.npmrc"
 
 #ok
-echo "ok"
 sudo ln -fs  ${DOTFILES}"/stth.sh" "/usr/local/bin/stth"
+
+echo "ok"
