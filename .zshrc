@@ -86,17 +86,14 @@ source $ZSH/oh-my-zsh.sh
 #
 #alias start
 #
-alias cdc="cd ~/Works/WYHL/"
-alias cdcc="cd ~/Works/WYHL/service_count/shell/"
+alias cdw="cd ~/Works/"
 alias cddc="cd ~/Documents/"
 alias cddl="cd ~/Downloads/"
-alias cdt="mkdir -p /tmp/WorkTemp/ && cd /tmp/WorkTemp/"
+alias cdt="mkdir -p ~/WorkTemp/ && cd ~/WorkTemp/"
 alias cds="cd ~/Works/MY_PROJECT/shellManage"
 alias cdlog="cd /usr/local/share/tomcat/apache-tomcat-8.0.32/logs"
-alias cdjvm="cd /usr/local/share/jvm/bin"
+alias cdjvm="cd /usr/local/share/jvm/default/bin"
 alias cdsql="cd ~/Documents/WYHL/sql"
-alias cdibk="cd ~/Documents/WYHL/ctradebook2"
-# alias sshpro="ssh root@cms.qilin99.com" 
 alias sshpro="ssh root@123.56.68.94" 
 alias sshtst="ssh root@500win.cn"
 alias sshone="ssh ubuntu@52.78.225.9"
