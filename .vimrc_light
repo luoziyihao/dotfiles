@@ -68,7 +68,7 @@ Bundle 'wombat256.vim'
 "altercation/vim-colors-solarized
 Bundle 'altercation/vim-colors-solarized'
 "Valloric/YouCompleteMe
-Bundle 'Valloric/YouCompleteMe'
+"Bundle 'Valloric/YouCompleteMe'
 "Tagbar
 Bundle 'majutsushi/tagbar'
 "ariline
