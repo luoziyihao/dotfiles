@@ -119,7 +119,6 @@ alias topdf="home/luoziyihao/Downloads/wkhtmltox/bin/wkhtmltopdf "
 alias cr="mkdir -p /tmp/empty && rsync --delete-before  -aHv --progress  --stats /tmp/empty/ "
 alias dudu="ls -a  |sed -e '/^.$/d' -e '/^..$/d' | xargs -i du -ms {}|sort -n |tee "/tmp/.capacity.`date  "+%Y-%m-%d_%H-%M-%S"`.log""
 alias jude="java -jar /usr/local/share/jude/default/jude-community.jar  > /dev/null &"
-alias qtalk="nohup /usr/local/share/qtalk/qtalk/run.sh > /tmp/log/qtalk.log 2>&1 &"
 #alias end
 #
 # environment start
@@ -163,7 +162,7 @@ dircolors_solarized_dest=$MY_HOME"/.dir_colors"
 # mk dircolorsdb
 eval `dircolors ${dircolors_solarized_dest}`
 
-${MY_HOME}/start.sh
+source ${MY_HOME}/start.sh
 # script start end
 
 # export NVM_DIR="$HOME/.nvm"
