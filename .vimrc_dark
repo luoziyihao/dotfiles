@@ -67,7 +67,7 @@ Bundle 'luoziyihao/my_fisa'
 "altercation/vim-colors-solarized
 Bundle 'altercation/vim-colors-solarized'
 "Valloric/YouCompleteMe
-Bundle 'Valloric/YouCompleteMe'
+"Bundle 'Valloric/YouCompleteMe'
 "Tagbar
 Bundle 'majutsushi/tagbar'
 "ariline

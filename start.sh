@@ -1,5 +1,15 @@
 #!/bin/bash
 # start.sh v0.1
+
+# Load pyenv automatically by adding
+# the following to ~/.zshrc:
+
+export PATH="/home/luoziyihao/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+export PYENV_VIRTUALENV_DISABLE_PROMPT=1
+export PYTHON_CONFIGURE_OPTS="--enable-shared"
+
 VPNGRP=q_vpn_tech
 VPNUSER=xiang.rao
 VPNURL=https://qunarvpn.corp.qunar.com
