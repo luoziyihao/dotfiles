@@ -7,7 +7,7 @@
 #!/bin/bash
 
 sudo apt-get install zsh
-sudo usermod -s /bin/zsh `who|awk '{print($1)}'`
+usermod -s /bin/zsh ` who |head -n 1|awk '{print($1)}'`
 sudo apt-get install tmux
  
 MY_HOME=${HOME}
