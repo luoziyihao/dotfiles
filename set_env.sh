@@ -69,4 +69,6 @@ ln -fs ${DOTFILES}"/.npmrc" ${MY_HOME}"/.npmrc"
 #ok
 sudo ln -fs  ${DOTFILES}"/stth.sh" "/usr/local/bin/stth"
 
+# create workspace
+/bin/bash ./create_workspace.sh
 echo "ok"
