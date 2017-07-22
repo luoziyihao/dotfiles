@@ -64,6 +64,7 @@ Bundle 'jiangmiao/auto-pairs'
 Bundle 'iamcco/markdown-preview.vim'
 "luoziyihao/my_fisa
 Bundle 'luoziyihao/my_fisa'
+Bundle 'wombat256.vim'
 "altercation/vim-colors-solarized
 Bundle 'altercation/vim-colors-solarized'
 "Valloric/YouCompleteMe
