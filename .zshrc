@@ -173,3 +173,4 @@ source ${MY_HOME}/start.sh
 
 
 export  M3_HOME=/usr/local/share/mvn/default/bin
+export CATALINA_BASE=/usr/local/share/tomcat/default/logs
