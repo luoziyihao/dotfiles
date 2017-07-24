@@ -119,6 +119,7 @@ alias topdf="home/luoziyihao/Downloads/wkhtmltox/bin/wkhtmltopdf "
 alias cr="mkdir -p /tmp/empty && rsync --delete-before  -aHv --progress  --stats /tmp/empty/ "
 alias dudu="ls -a  |sed -e '/^.$/d' -e '/^..$/d' | xargs -i du -ms {}|sort -n |tee "/tmp/.capacity.`date  "+%Y-%m-%d_%H-%M-%S"`.log""
 alias jude="java -jar /usr/local/share/jude/default/jude-community.jar  > /dev/null &"
+alias idea="nohup /usr/local/share/idea/default/bin/idea.sh >> /tmp/idea.log 2>&1 &"
 #alias end
 #
 # environment start
@@ -170,14 +171,6 @@ source ${MY_HOME}/start.sh
 # [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 
 
-# Load pyenv automatically by adding
-# the following to ~/.zshrc:
-
-export PATH="/home/luoziyihao/.pyenv/bin:$PATH"
-eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
-export PYENV_VIRTUALENV_DISABLE_PROMPT=1
-export PYTHON_CONFIGURE_OPTS="--enable-shared"
 
 export  M3_HOME=/usr/local/share/mvn/default/bin
 export CATALINA_BASE=/usr/local/share/tomcat/default/logs

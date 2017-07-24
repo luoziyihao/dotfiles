@@ -7,7 +7,7 @@
 #!/bin/bash
 
 sudo apt-get install zsh
-sudo usermod -s /bin/zsh `who|awk '{print($1)}'`
+usermod -s /bin/zsh ` who |head -n 1|awk '{print($1)}'`
 sudo apt-get install tmux
  
 MY_HOME=${HOME}
@@ -51,9 +51,10 @@ ln -fs ${dircolors_solarized}"/dircolors.ansi-light" ${dircolors_solarized_dest}
 
 ln -fs ${DOTFILES}"/.bashrc" ${MY_HOME}"/.bashrc"
 ln -fs ${DOTFILES}"/.tmux.conf" ${MY_HOME}"/.tmux.conf"
-ln -fs ${DOTFILES}"/.vimrc" ${MY_HOME}"/.vimrc"
+ln -fs ${DOTFILES}"/.vimrc_dark" ${MY_HOME}"/.vimrc"
 ln -fs ${DOTFILES}"/.ycm_extra_conf.py" ${MY_HOME}"/.ycm_extra_conf.py"
 ln -fs ${DOTFILES}"/.zshrc" ${MY_HOME}"/.zshrc"
+ln -fs ${DOTFILES}"/.z" ${MY_HOME}"/.z"
 ln -fs ${oh_my_zsh} ${oh_my_zsh_dest}
 
 # mvn mirror
@@ -68,4 +69,6 @@ ln -fs ${DOTFILES}"/.npmrc" ${MY_HOME}"/.npmrc"
 #ok
 sudo ln -fs  ${DOTFILES}"/stth.sh" "/usr/local/bin/stth"
 
+# create workspace
+/bin/bash ./create_workspace.sh
 echo "ok"
