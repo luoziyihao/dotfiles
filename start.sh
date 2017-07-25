@@ -37,6 +37,19 @@ mount_data(){
     fi
 }
 
+create_soft_dir(){
+    who=` who |head -n 1|awk '{print($1)}'`
+    # add check for file's owner
+    # sudo chown -R ${who} /usr/local 
+    # chmod 755 -R /usr/local 
+
+    soft_dir_arr=(jvm tomcat idea)
+    soft_dir_pre=/usr/local/share
+    for dir_tmp in ${soft_dir_arr[@]};
+    do
+        mkdir -p ${soft_dir_pre}/${dir_tmp}
+    done
+}
 
 # start script start
 
@@ -59,4 +72,5 @@ alias fcps="gaa && gcmsg 'force push' &&ggpush"
 
 ##################### command start #####################
 mount_data
+create_soft_dir
 ##################### command end #####################
