@@ -4,6 +4,13 @@
 
 my ubuntu editor environment cfg.
 
+branch:
+```
+master is for pc
+public is for server
+purge is for windows
+```
+
 ### use it
 
 ```
