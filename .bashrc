@@ -165,3 +165,4 @@ export EDITOR=/usr/bin/vi
  
 # export PS1='\[\e[37;40m\][\[\033[01;36m\]\u\[\e[37;40m\]@\[\e[0m\]\h \[\033[01;36m\]\W\[\033[01;32m\]$(git_branch)\[\033[00m\]\[\e[37;40m\]]\[\e[0m\]\$ '
 ##################### add git branch 2 ##############################
+export PATH=/usr/local/share/git_tools/bin:$PATH
