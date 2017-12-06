@@ -1,0 +1,19 @@
+*.o
+*.dat
+*~
+elpa/
+auto-save-list/
+eshell/
+
+# ignore auto-generated file
+srecode-map.el
+.mc-lists.el
+session.*
+\#*
+ido.last
+smex-items
+recentf
+
+# ignore custom settings
+lisp/init-local.el
+custom.el
