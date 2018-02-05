@@ -43,7 +43,7 @@ create_soft_dir(){
     # sudo chown -R ${who} /usr/local 
     # chmod 755 -R /usr/local 
 
-    soft_dir_arr=(jvm tomcat idea)
+    soft_dir_arr=(jvm tomcat idea maven)
     soft_dir_pre=/usr/local/share
     for dir_tmp in ${soft_dir_arr[@]};
     do
