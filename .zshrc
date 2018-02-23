@@ -168,8 +168,3 @@ source ${MY_HOME}/.start.sh
 # [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 
 
-export CATALINA_BASE=/usr/local/share/tomcat/default/logs
-export PATH=/usr/local/share/git_tools/bin:$PATH
-
-export PATH=/usr/local/share/maven/default/bin:$PATH
-export PATH=/usr/local/share/jvm/default/bin:$PATH

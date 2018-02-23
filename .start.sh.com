@@ -1,6 +1,8 @@
 #!/bin/bash
 # start.sh v0.2
 
+# 公司笔记本启动文件，不包括公司的隐私信息, 公司的隐私信息放在 ~/.start.sh.com.private中
+
 mount_data(){
     mount_dir=/data/ext
     detect_mount_file=${mount_dir}/detect_mount_file
@@ -10,12 +12,11 @@ mount_data(){
     else
         # mount disk, add soft link under ${soft_link_dir} 
         echo "start mount and create soft_link" 
-        password="rxsgsjb111"
         who=` who |head -n 1|awk '{print($1)}'`
         mount_disk=/dev/sda2
         soft_link_dir=${HOME}/ext
 
-        echo ${password} | sudo -S mkdir -p ${mount_dir} > /dev/null
+        sudo mkdir -p ${mount_dir} > /dev/null
         sudo mount ${mount_disk}  ${mount_dir} 
         sudo chown ${who} ${mount_dir} 
         rm -rf ${soft_link_dir}
