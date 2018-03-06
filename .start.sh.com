@@ -55,10 +55,6 @@ create_soft_dir(){
 # start script start
 
 
-##################### alias start #####################
-alias vpncc="sudo vpnc-connect"
-alias fcps="gaa && gcmsg 'force push' &&ggpush"
-##################### alias end #####################
 
 ##################### command start #####################
 mount_data

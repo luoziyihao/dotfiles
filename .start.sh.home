@@ -51,25 +51,6 @@ create_soft_dir(){
     done
 }
 
-# start script start
-
-##################### export start #####################
-# Load pyenv automatically by adding
-# the following to ~/.zshrc:
-
-# pyenv
-# export PATH="/home/luoziyihao/.pyenv/bin:$PATH"
-# eval "$(pyenv init -)"
-# eval "$(pyenv virtualenv-init -)"
-# export PYENV_VIRTUALENV_DISABLE_PROMPT=1
-# export PYTHON_CONFIGURE_OPTS="--enable-shared"
-##################### export end #####################
-
-##################### alias start #####################
-alias vpncc="sudo vpnc-connect"
-alias fcps="gaa && gcmsg 'force push' &&ggpush"
-##################### alias end #####################
-
 ##################### command start #####################
 mount_data
 create_soft_dir
