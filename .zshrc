@@ -94,19 +94,9 @@ alias cds="cd ~/Works/MY_PROJECT/shellManage"
 alias cdlog="cd /usr/local/share/tomcat/default/logs"
 alias cdjvm="cd /usr/local/share/jvm/default/bin"
 alias cdsql="cd ~/Documents/WYHL/sql"
-<<<<<<< HEAD
-alias sshpro="ssh root@123.56.68.94" 
-alias sshtst="ssh root@500win.cn"
-alias sshone="ssh ubuntu@52.78.225.9"
-alias sshtwo="ssh 'root@123.56.6.229'"
-# alias sshadd="ssh-copy-id 'root@123.56.6.229'"
-# alias mysql="mysql -uroot"
-alias mysql="mysql -uroot -p123"
-=======
 # alias sshadd="ssh-copy-id 'root@123.56.6.229'"
 # alias mysql="mysql -uroot"
 # alias mysql="mysql -uroot -p123"
->>>>>>> 56bf2b31f3c85401eb2186a32ae73f24df74d556
 alias vr="vim -R "
 # pdf reader
 alias pdf="evince"
@@ -133,12 +123,7 @@ alias idea="nohup /usr/local/share/idea/default/bin/idea.sh >> /tmp/idea.log 2>&
 export EDITOR=/usr/bin/vi
 
 export JAVA_HOME=/usr/local/share/jvm/default
-<<<<<<< HEAD
 export CLASSPATH=.:$JAVA_HOME/jre/lib/rt.jar:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
-=======
-#export CLASSPATH=.:$JAVA_HOME/jre/lib/rt.jar:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
-export CLASSPATH=.:$JAVA_HOME/jre/lib:$JAVA_HOME/lib
->>>>>>> 56bf2b31f3c85401eb2186a32ae73f24df74d556
 # set JAVA_HOME FRONT to explace the default java version
 export PATH=$JAVA_HOME/bin:$PATH
 
@@ -174,11 +159,8 @@ dircolors_solarized_dest=$MY_HOME"/.dir_colors"
 # mk dircolorsdb
 eval `dircolors ${dircolors_solarized_dest}`
 
-<<<<<<< HEAD
 source ${MY_HOME}/start.sh
-=======
 source ${MY_HOME}/.start.sh
->>>>>>> 56bf2b31f3c85401eb2186a32ae73f24df74d556
 # script start end
 
 # export NVM_DIR="$HOME/.nvm"
@@ -186,10 +168,6 @@ source ${MY_HOME}/.start.sh
 # [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 
 
-<<<<<<< HEAD
-
 export  M3_HOME=/usr/local/share/mvn/default/bin
 export CATALINA_BASE=/usr/local/share/tomcat/default/logs
 export PATH=/usr/local/share/git_tools/bin:$PATH
-=======
->>>>>>> 56bf2b31f3c85401eb2186a32ae73f24df74d556
