@@ -7,7 +7,11 @@
 #!/bin/bash
 
 sudo apt-get install zsh
+<<<<<<< HEAD
 usermod -s /bin/zsh ` who |head -n 1|awk '{print($1)}'`
+=======
+sudo usermod -s /bin/zsh ` who |head -n 1|awk '{print($1)}'`
+>>>>>>> 56bf2b31f3c85401eb2186a32ae73f24df74d556
 sudo apt-get install tmux
  
 MY_HOME=${HOME}
@@ -30,7 +34,11 @@ if [ -d "${oh_my_zsh}" ]; then
     echo -e "\033[34m zsh cfg archive: ${oh_my_zsh} \033[0m"
 else 
     echo -e "\033[31m zsh cfg archive '${oh_my_zsh}' not exists, just git clone it \033[0m"
+<<<<<<< HEAD
     git clone git://github.com/robbyrussell/oh-my-zsh.git ${oh_my_zsh}
+=======
+    git clone https://github.com/robbyrussell/oh-my-zsh.git ${oh_my_zsh}
+>>>>>>> 56bf2b31f3c85401eb2186a32ae73f24df74d556
 fi
 
 if [ -d "${gnome_solarized}" ]; then

@@ -584,6 +584,10 @@ map <leader>md <Esc>:MarkdownPreview<CR>
          call append(line("."), "\#########################################################################") 
          call append(line(".")+1, "\# File Name: ".expand("%")) 
          call append(line(".")+2, "\# Author: raoxiang") 
+<<<<<<< HEAD
+         call append(line(".")+3, "\# mail: xiangrao@qilin99.com") 
+=======
+>>>>>>> 56bf2b31f3c85401eb2186a32ae73f24df74d556
          "call append(line(".")+3, "\# Created Time: ".strftime("%c")) 
          call append(line(".")+4, "\# Created Time: ".strftime("%Y-%m-%d",localtime()))
          call append(line(".")+5, "\#########################################################################") 
@@ -624,6 +628,10 @@ map <leader>md <Esc>:MarkdownPreview<CR>
      call append(line(".")+1," ")
      call append(line(".")+2, "\# File Name: ".expand("%")) 
      call append(line(".")+3, "\# Author: raoxiang") 
+<<<<<<< HEAD
+     call append(line(".")+4, "\# mail: xiangrao@qilin99.com") 
+=======
+>>>>>>> 56bf2b31f3c85401eb2186a32ae73f24df74d556
      call append(line(".")+5, "\# Created Time: ".strftime("%Y-%m-%d",localtime()))    
  endfunc
  

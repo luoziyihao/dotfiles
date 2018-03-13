@@ -5,7 +5,11 @@ mkdir -p ~/Works/Qunar
 mkdir -p ~/WorkTemp
 
 cd ~/Works/MY_PROJECT/
+<<<<<<< HEAD
 git clone git@github.com:luoziyihao/shellManage.git
+=======
+git clone https://github.com/luoziyihao/shellManage.git 
+>>>>>>> 56bf2b31f3c85401eb2186a32ae73f24df74d556
 cd ./shellManage
  ln -fs $(pwd)/p /usr/local/bin/por
  ln -fs $(pwd)/r /usr/local/bin/rer

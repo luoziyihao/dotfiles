@@ -7,7 +7,13 @@ alias xmind="nohup /usr/local/share/xmind/xmind-8-linux/XMind_amd64/XMind > /dev
 alias cdxmind="cd /usr/local/share/xmind/xmind-8-linux/XMind_amd64"
 alias hktest="ssh root@test.huakai.me"
 alias cdilog="cd /home/luoziyihao/.IntelliJIdea2017.2/system/tomcat/"
+<<<<<<< HEAD
 alias mvn3="/usr/local/share/maven/apache-maven-3.3.3/bin/mvn -s ~/.m2/settings.ali.xml "
+=======
+alias mvn3="/usr/local/share/maven/apache-maven-3.3.3/bin/mvn"
+alias vpncc="sudo vpnc-connect"
+alias fcps="gaa && gcmsg 'force push' &&ggpush"
+>>>>>>> 7190546ffca596fab66ec394c3b2d1c201a4cf59
 
 export CATALINA_BASE=/usr/local/share/tomcat/default/logs
 export PATH=/usr/local/share/git_tools/bin:$PATH
