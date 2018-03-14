@@ -7,7 +7,7 @@ alias xmind="nohup /usr/local/share/xmind/xmind-8-linux/XMind_amd64/XMind > /dev
 alias cdxmind="cd /usr/local/share/xmind/xmind-8-linux/XMind_amd64"
 alias hktest="ssh root@test.huakai.me"
 alias cdilog="cd /home/luoziyihao/.IntelliJIdea2017.2/system/tomcat/"
-alias mvn3="/usr/local/share/maven/apache-maven-3.3.3/bin/mvn -s ~/.m2/settings.ali.xml "
+alias mvn3="/usr/local/share/mvn/default/bin/mvn -s ~/.m2/settings.ali.xml "
 alias vpncc="sudo vpnc-connect"
 alias fcps="gaa && gcmsg 'force push' &&ggpush"
 
