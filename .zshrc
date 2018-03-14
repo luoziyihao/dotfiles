@@ -159,7 +159,6 @@ dircolors_solarized_dest=$MY_HOME"/.dir_colors"
 # mk dircolorsdb
 eval `dircolors ${dircolors_solarized_dest}`
 
-source ${MY_HOME}/start.sh
 source ${MY_HOME}/.start.sh
 # script start end
 

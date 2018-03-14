@@ -7,16 +7,12 @@
 #!/bin/bash
 
 sudo apt-get install zsh
-<<<<<<< HEAD
-usermod -s /bin/zsh ` who |head -n 1|awk '{print($1)}'`
-=======
 sudo usermod -s /bin/zsh ` who |head -n 1|awk '{print($1)}'`
->>>>>>> 56bf2b31f3c85401eb2186a32ae73f24df74d556
 sudo apt-get install tmux
  
 MY_HOME=${HOME}
 DOTFILES=${MY_HOME}"/dotfiles"
-# 在对目录做阮链接的时候也不要用 '/', 尤其是目的的目录不要接'/'
+# 在对目录做soft链接的时候也不要用 '/', 尤其是目的的目录不要接'/'
 gnome_solarized=$DOTFILES"/gnome_terminal_colors_solarized"
 oh_my_zsh=$DOTFILES"/oh_my_zsh"
 oh_my_zsh_dest=$MY_HOME"/.oh-my-zsh"
@@ -34,11 +30,8 @@ if [ -d "${oh_my_zsh}" ]; then
     echo -e "\033[34m zsh cfg archive: ${oh_my_zsh} \033[0m"
 else 
     echo -e "\033[31m zsh cfg archive '${oh_my_zsh}' not exists, just git clone it \033[0m"
-<<<<<<< HEAD
-    git clone git://github.com/robbyrussell/oh-my-zsh.git ${oh_my_zsh}
-=======
     git clone https://github.com/robbyrussell/oh-my-zsh.git ${oh_my_zsh}
->>>>>>> 56bf2b31f3c85401eb2186a32ae73f24df74d556
+
 fi
 
 if [ -d "${gnome_solarized}" ]; then
@@ -62,21 +55,20 @@ ln -fs ${DOTFILES}"/.tmux.conf" ${MY_HOME}"/.tmux.conf"
 ln -fs ${DOTFILES}"/.vimrc_dark" ${MY_HOME}"/.vimrc"
 ln -fs ${DOTFILES}"/.ycm_extra_conf.py" ${MY_HOME}"/.ycm_extra_conf.py"
 ln -fs ${DOTFILES}"/.zshrc" ${MY_HOME}"/.zshrc"
+ln -fs ${DOTFILES}"/.start.sh" ${MY_HOME}"/.start.sh"
+ln -fs ${DOTFILES}"/.start.sh.local" ${MY_HOME}"/.start.sh.local"
 ln -fs ${DOTFILES}"/.z" ${MY_HOME}"/.z"
 ln -fs ${oh_my_zsh} ${oh_my_zsh_dest}
-
 # mvn mirror
-# sudo mkdir -p /etc/maven
-# sudo cp /etc/maven/settings.xml /etc/maven/settings.xml.bak
-# sudo ln -fs ${DOTFILES}"/settings.xml" "/etc/maven/settings.xml"
-
-
+mkdir -p  ${MY_HOME}/.m2
+ln -fs ${DOTFILES}/settings.ali.xml ${MY_HOME}/.m2/settings.ali.xml
 # npm mirror
 ln -fs ${DOTFILES}"/.npmrc" ${MY_HOME}"/.npmrc"
 
-#ok
+# stth
 sudo ln -fs  ${DOTFILES}"/stth.sh" "/usr/local/bin/stth"
 
 # create workspace
 /bin/bash ./create_workspace.sh
+
 echo "ok"

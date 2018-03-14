@@ -1,5 +1,5 @@
 #!/bin/bash
-source ~/.start.sh.com
+source ~/.start.sh.local
 source ~/.start.sh.com.private
 source ~/.start.sh.hk
 alias sshone="ssh luoziyihao@luoziyihao.com"
