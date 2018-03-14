@@ -167,6 +167,7 @@ source ${MY_HOME}/.start.sh
 # [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 
 
-export  M3_HOME=/usr/local/share/mvn/default/bin
+export M3_HOME=/usr/local/share/mvn/default/bin
 export CATALINA_BASE=/usr/local/share/tomcat/default/logs
 export PATH=/usr/local/share/git_tools/bin:$PATH
+export PATH=/usr/local/share/mvn/default/bin:$PATH
