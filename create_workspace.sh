@@ -11,6 +11,7 @@ git clone https://github.com/luoziyihao/shellManage.git
 cd ./shellManage
  ln -fs $(pwd)/p /usr/local/bin/por
  ln -fs $(pwd)/r /usr/local/bin/rer
+ ln -fs $(pwd)/kills.sh /usr/local/bin/ks
 
 alias vpncc="sudo vpnc-connect"
 alias fcps="gaa && gcmsg 'force push' &&ggpush"
