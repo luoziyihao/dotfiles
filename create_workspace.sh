@@ -19,5 +19,11 @@ alias fcps="gaa && gcmsg 'force push' &&ggpush"
 git config --global user.email "wangyiraoxiang@163.com"
 git config --global user.name "xiang.rao"
 
+# pyenv
 cd
 curl -L https://raw.github.com/yyuu/pyenv-installer/master/bin/pyenv-installer | bash
+
+# zsh 权限
+sudo chown -R luoziyihao:root  /usr/local/share/zsh
+sudo chmod  -R 755  /usr/local/share/zsh
+
