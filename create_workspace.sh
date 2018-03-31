@@ -27,3 +27,5 @@ curl -L https://raw.github.com/yyuu/pyenv-installer/master/bin/pyenv-installer |
 sudo chown -R luoziyihao:root  /usr/local/share/zsh
 sudo chmod  -R 755  /usr/local/share/zsh
 
+# data
+ sudo chown -R luoziyihao /data/
