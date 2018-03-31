@@ -12,7 +12,7 @@ mount_data(){
         echo "start mount and create soft_link" 
         password="rxsgsjb111"
         who=` who |head -n 1|awk '{print($1)}'`
-        mount_disk=/dev/sdb2
+        mount_disk=/dev/sdb1
         soft_link_dir=${HOME}/ext
 
         echo ${password} | sudo -S mkdir -p ${mount_dir} > /dev/null
@@ -52,6 +52,6 @@ create_soft_dir(){
 }
 
 ##################### command start #####################
-# mount_data
-# create_soft_dir
+mount_data
+create_soft_dir
 ##################### command end #####################

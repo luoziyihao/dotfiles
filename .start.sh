@@ -6,7 +6,7 @@ alias sshone="ssh luoziyihao@luoziyihao.com"
 alias xmind="nohup /usr/local/share/xmind/xmind-8-linux/XMind_amd64/XMind > /dev/null &"
 alias cdxmind="cd /usr/local/share/xmind/xmind-8-linux/XMind_amd64"
 alias cdilog="cd /home/luoziyihao/.IntelliJIdea2017.2/system/tomcat/"
-alias mvn3="/usr/local/share/mvn/default/bin/mvn -s ~/.m2/settings.ali.xml "
+alias mvn3="/usr/local/share/maven/default/bin/mvn -s ~/.m2/settings.ali.xml "
 alias vpncc="sudo vpnc-connect"
 alias fcps="gaa && gcmsg 'force push' &&ggpush"
 
