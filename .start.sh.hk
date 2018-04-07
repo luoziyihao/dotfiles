@@ -1,0 +1,3 @@
+alias hktest="ssh root@test.huakai.me"
+alias hkpro="ssh root@jumpbox.huakai.me"
+alias hkdoc="cd ~/Works/hk/hk-docs/"
