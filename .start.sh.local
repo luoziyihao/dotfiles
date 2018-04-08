@@ -1,0 +1,13 @@
+#!/bin/bash
+create_soft_dir(){
+    who=` who |head -n 1|awk '{print($1)}'`
+    soft_dir_arr=(jvm tomcat idea maven gradle virtaul xmind uml)
+    soft_dir_pre=/usr/local/share
+    for dir_tmp in ${soft_dir_arr[@]};
+    do
+        mkdir -p ${soft_dir_pre}/${dir_tmp}
+    done
+}
+
+create_soft_dir
+
