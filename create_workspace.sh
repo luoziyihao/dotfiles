@@ -32,6 +32,7 @@ git config --global user.name "xiang.rao"
 # pyenv
 sudo apt-get install curl
 sudo apt-get install python-pip
+sudo  pip install shadowsocks
 cd
 curl -L https://raw.github.com/yyuu/pyenv-installer/master/bin/pyenv-installer | bash
 
