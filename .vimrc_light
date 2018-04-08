@@ -122,7 +122,7 @@ endif
 if &term =~? 'mlterm\|xterm\|xterm-256\|screen-256'
 	let &t_Co = 256
     " colorscheme fisa
-    colorscheme solarized
+    "colorscheme solarized
     "colorscheme molokai
 else
     colorscheme delek
@@ -209,10 +209,10 @@ let g:neocomplete#sources#omni#input_patterns.perl = '\h\w*->\h\w*\|\h\w*::'
 "neocomplete------------------------------
 
 "solarized------------------------------
-let g:solarized_termtrans = 1
-colorscheme solarized
-" togglebg#map("<F5>")
-set background=light
+" let g:solarized_termtrans = 1
+" colorscheme solarized
+" " togglebg#map("<F5>")
+" set background=light
 "solarized------------------------------
 "
 "syntastic------------------------------
@@ -584,10 +584,7 @@ map <leader>md <Esc>:MarkdownPreview<CR>
          call append(line("."), "\#########################################################################") 
          call append(line(".")+1, "\# File Name: ".expand("%")) 
          call append(line(".")+2, "\# Author: raoxiang") 
-<<<<<<< HEAD
-         call append(line(".")+3, "\# mail: xiangrao@qilin99.com") 
-=======
->>>>>>> 56bf2b31f3c85401eb2186a32ae73f24df74d556
+         call append(line(".")+4, "\# mail: wangyiraoxiang@163.com") 
          "call append(line(".")+3, "\# Created Time: ".strftime("%c")) 
          call append(line(".")+4, "\# Created Time: ".strftime("%Y-%m-%d",localtime()))
          call append(line(".")+5, "\#########################################################################") 
@@ -628,10 +625,7 @@ map <leader>md <Esc>:MarkdownPreview<CR>
      call append(line(".")+1," ")
      call append(line(".")+2, "\# File Name: ".expand("%")) 
      call append(line(".")+3, "\# Author: raoxiang") 
-<<<<<<< HEAD
-     call append(line(".")+4, "\# mail: xiangrao@qilin99.com") 
-=======
->>>>>>> 56bf2b31f3c85401eb2186a32ae73f24df74d556
+     call append(line(".")+4, "\# mail: wangyiraoxiang@163.com") 
      call append(line(".")+5, "\# Created Time: ".strftime("%Y-%m-%d",localtime()))    
  endfunc
  
