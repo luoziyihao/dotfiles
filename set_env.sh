@@ -52,10 +52,11 @@ ln -fs ${dircolors_solarized}"/dircolors.ansi-light" ${dircolors_solarized_dest}
 
 ln -fs ${DOTFILES}"/.bashrc" ${MY_HOME}"/.bashrc"
 ln -fs ${DOTFILES}"/.tmux.conf" ${MY_HOME}"/.tmux.conf"
-ln -fs ${DOTFILES}"/.vimrc_dark" ${MY_HOME}"/.vimrc"
+ln -fs ${DOTFILES}"/.vimrc_light" ${MY_HOME}"/.vimrc"
 ln -fs ${DOTFILES}"/.ycm_extra_conf.py" ${MY_HOME}"/.ycm_extra_conf.py"
 ln -fs ${DOTFILES}"/.zshrc" ${MY_HOME}"/.zshrc"
 ln -fs ${DOTFILES}"/.start.sh" ${MY_HOME}"/.start.sh"
+ln -fs ${DOTFILES}"/.start.sh.local" ${MY_HOME}"/.start.sh.local"
 ln -fs ${DOTFILES}"/.z" ${MY_HOME}"/.z"
 ln -fs ${oh_my_zsh} ${oh_my_zsh_dest}
 # mvn mirror
