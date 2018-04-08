@@ -38,10 +38,10 @@ curl -L https://raw.github.com/yyuu/pyenv-installer/master/bin/pyenv-installer |
 # install
 sudo apt-get install shutter
 sudo apt-get install vim-gnome
-sudo apt-get install chromium-browser
-sudo apt-get install nautilus-open-terminal
-sudo apt-get install uget
-sudo apt-get install aria2
+#sudo apt-get install chromium-browser
+# sudo apt-get install nautilus-open-terminal
+# sudo apt-get install uget
+# sudo apt-get install aria2
 sudo apt-get install ibus ibus-clutter ibus-gtk ibus-gtk3 ibus-qt4
 sudo apt-get install  ibus-sunpinyin
 sudo apt-get install ibus-table-emoji
