@@ -37,6 +37,7 @@ curl -L https://raw.github.com/yyuu/pyenv-installer/master/bin/pyenv-installer |
 
 
 # install
+sudo apt-get install aptitude
 sudo apt-get install shutter
 sudo apt-get install vim-gnome
 #sudo apt-get install chromium-browser
