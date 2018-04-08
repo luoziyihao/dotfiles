@@ -30,6 +30,7 @@ git config --global user.email "wangyiraoxiang@163.com"
 git config --global user.name "xiang.rao"
 
 # pyenv
+sudo apt-get install curl
 sudo apt-get install python-pip
 cd
 curl -L https://raw.github.com/yyuu/pyenv-installer/master/bin/pyenv-installer | bash
@@ -39,7 +40,7 @@ curl -L https://raw.github.com/yyuu/pyenv-installer/master/bin/pyenv-installer |
 sudo apt-get install shutter
 sudo apt-get install vim-gnome
 #sudo apt-get install chromium-browser
-# sudo apt-get install nautilus-open-terminal
+sudo apt-get install nautilus-open-terminal
 # sudo apt-get install uget
 # sudo apt-get install aria2
 sudo apt-get install ibus ibus-clutter ibus-gtk ibus-gtk3 ibus-qt4
