@@ -17,7 +17,7 @@ export PATH=/usr/local/share/jvm/default/bin:$PATH
 export PATH=/usr/local/share/gradle/default/bin:$PATH
 
 # pyenv
-export PATH="/home/luoziyihao/.pyenv/bin:$PATH"
+export PATH="/Users/luoziyihao/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 export PYENV_VIRTUALENV_DISABLE_PROMPT=1

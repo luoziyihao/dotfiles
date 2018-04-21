@@ -6,9 +6,10 @@
 #########################################################################
 #!/bin/bash
 
-sudo apt-get install zsh
-sudo usermod -s /bin/zsh ` who |head -n 1|awk '{print($1)}'`
-sudo apt-get install tmux
+brew install zsh zsh-completions
+fpath=(/usr/local/share/zsh-completions $fpath)
+chsh -s /bin/zsh
+brew install tmux
  
 MY_HOME=${HOME}
 DOTFILES=${MY_HOME}"/dotfiles"
