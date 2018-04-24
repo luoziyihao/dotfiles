@@ -57,6 +57,8 @@ ln -fs ${DOTFILES}"/.ycm_extra_conf.py" ${MY_HOME}"/.ycm_extra_conf.py"
 ln -fs ${DOTFILES}"/.zshrc" ${MY_HOME}"/.zshrc"
 ln -fs ${DOTFILES}"/.start.sh" ${MY_HOME}"/.start.sh"
 ln -fs ${DOTFILES}"/.start.sh.local" ${MY_HOME}"/.start.sh.local"
+ln -fs ${DOTFILES}"/.start.sh.hk" ${MY_HOME}"/.start.sh.hk"
+ln -fs ${DOTFILES}"/.start.sh.com.private" ${MY_HOME}"/.start.sh.com.private"
 ln -fs ${DOTFILES}"/.z" ${MY_HOME}"/.z"
 ln -fs ${oh_my_zsh} ${oh_my_zsh_dest}
 # mvn mirror
