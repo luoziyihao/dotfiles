@@ -51,6 +51,7 @@ sudo apt-get install aptitude
 sudo apt-get install shutter
 sudo apt-get install vim-gnome
 sudo apt-get install chromium-browser
+sudo apt install gnome-tweak-tool
 # comment for ubuntu 18.04
 # sudo apt-get install nautilus-open-terminal
 sudo apt-get install uget
