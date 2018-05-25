@@ -9,5 +9,5 @@ create_soft_dir(){
     done
 }
 
-create_soft_dir
+# create_soft_dir
 
