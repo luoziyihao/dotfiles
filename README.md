@@ -14,20 +14,8 @@ purge is for windows
 ### use it
 
 ```
-# install zsh
-sudo apt-get install zsh
-
-# install tmux
-sudo apt-get install tmux
-
-# python pip for install python lib
-sudo apt-get install python-pip
-
-# python lib
-sudo pip install pygment
-
-# go home
-cd
+# install 
+sudo apt-get install git 
 
 # get source
 git clone https://github.com/luoziyihao/dotfiles.git
@@ -56,4 +44,6 @@ stth dk
 clean package deploy -s /etc/maven/settings.xml
 ```
 ### thanks for having read it.
+
+
 

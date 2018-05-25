@@ -7,9 +7,8 @@
 #!/bin/bash
 
 sudo apt-get install zsh
-sudo usermod -s /bin/zsh ` who |head -n 1|awk '{print($1)}'`
-sudo apt-get install tmux
- 
+sudo usermod -s /bin/zsh `whoami`
+
 MY_HOME=${HOME}
 DOTFILES=${MY_HOME}"/dotfiles"
 # 在对目录做soft链接的时候也不要用 '/', 尤其是目的的目录不要接'/'
