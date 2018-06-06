@@ -130,7 +130,7 @@ endif
 
 " colors for gvim
 if has('gui_running')
-    colorscheme wombat256
+    " colorscheme wombat256
 endif
 " ============================pre plugin cfg================================================
 
