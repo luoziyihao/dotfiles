@@ -3,3 +3,6 @@ alias hkpro="ssh root@jumpbox.huakai.me"
 alias hkdoc="cd ~/Works/hk/hk-docs/"
 alias hkapi="cd ~/Works/hk/hk-api/"
 alias hkagt="cd ~/Works/hk/hk-agent/"
+
+
+alias cdms="cd ~/Works/ms/meishuo/"
