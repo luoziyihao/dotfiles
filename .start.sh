@@ -2,7 +2,7 @@
 source ~/.start.sh.local
 source ~/.start.sh.com.private
 source ~/.start.sh.hk
-alias sshone="ssh luoziyihao@luoziyihao.com"
+alias sshone="ssh 'root@123.56.6.229'"
 alias xmind="nohup /usr/local/share/xmind/xmind-8-linux/XMind_amd64/XMind > /dev/null &"
 alias cdxmind="cd /usr/local/share/xmind/xmind-8-linux/XMind_amd64"
 alias cduml="cd /usr/local/share/uml"
