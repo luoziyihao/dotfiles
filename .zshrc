@@ -162,9 +162,11 @@ eval `dircolors ${dircolors_solarized_dest}`
 source ${MY_HOME}/.start.sh
 # script start end
 
-# export NVM_DIR="$HOME/.nvm"
-# export NVM_NODEJS_ORG_MIRROR=https://npm.taobao.org/mirrors/node
-# [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+# nvm
+export NVM_NODEJS_ORG_MIRROR=https://npm.taobao.org/mirrors/node
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 
 export M3_HOME=/usr/local/share/mvn/default/bin
