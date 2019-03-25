@@ -113,23 +113,23 @@ under the License.
     <!-- <server> -->
       <!-- <id>Release</id> -->
       <!-- <username>admin</username> -->
-      <!-- <password>admin123</password> -->
+      <!-- <password>xxx</password> -->
     <!-- </server> -->
     <!-- <server> -->
       <!-- <id>Snapshot</id> -->
       <!-- <username>admin</username> -->
-      <!-- <password>admin123</password> -->
+      <!-- <password>xxx</password> -->
     <!-- </server> -->
 
     <server>
-      <id>Release</id>
+      <id>user-release</id>
       <username>admin</username>
-      <password>u11GSGpUtG</password>
+      <password>xxx</password>
     </server>
     <server>
-      <id>Snapshot</id>
+      <id>user-snapshot</id>
       <username>admin</username>
-      <password>u11GSGpUtG</password>
+      <password>xxx</password>
     </server>
 
 
