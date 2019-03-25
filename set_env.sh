@@ -62,7 +62,8 @@ ln -fs ${DOTFILES}"/.z" ${MY_HOME}"/.z"
 ln -fs ${oh_my_zsh} ${oh_my_zsh_dest}
 # mvn mirror
 mkdir -p  ${MY_HOME}/.m2
-ln -fs ${DOTFILES}/settings.ali.xml ${MY_HOME}/.m2/settings.ali.xml
+# 换成第一次手动拷贝到指定目录. 以免配置泄露
+# ln -fs ${DOTFILES}/settings.ali.xml ${MY_HOME}/.m2/settings.ali.xml
 # npm mirror
 ln -fs ${DOTFILES}"/.npmrc" ${MY_HOME}"/.npmrc"
 
