@@ -38,24 +38,24 @@ git config --global user.email "wangyiraoxiang@163.com"
 git config --global user.name "xiang.rao"
 
 # pyenv
-sudo apt-get install curl
-sudo apt-get install python-pip
+sudo apt-get install -y curl
+sudo apt-get install -y python-pip
 sudo  pip install shadowsocks
 cd
 curl -L https://raw.github.com/yyuu/pyenv-installer/master/bin/pyenv-installer | bash
 
 
 # install
-sudo apt-get install tmux
-sudo apt-get install aptitude
-sudo apt-get install shutter
-sudo apt-get install vim-gnome
-sudo apt-get install chromium-browser
-sudo apt install gnome-tweak-tool
+sudo apt-get install -y tmux
+sudo apt-get install -y aptitude
+sudo apt-get install -y shutter
+sudo apt-get install -y vim-gnome
+sudo apt-get install -y chromium-browser
+sudo apt install -y gnome-tweak-tool
 # comment for ubuntu 18.04
 # sudo apt-get install nautilus-open-terminal
-sudo apt-get install uget
-sudo apt-get install aria2
+sudo apt-get install -y uget
+sudo apt-get install -y aria2
 sudo apt-get install ibus ibus-clutter ibus-gtk ibus-gtk3 ibus-qt4
 sudo apt-get install  ibus-sunpinyin
 sudo apt-get install ibus-table-emoji

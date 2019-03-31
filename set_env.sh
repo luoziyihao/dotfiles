@@ -6,7 +6,7 @@
 #########################################################################
 #!/bin/bash
 
-sudo apt-get install zsh
+sudo apt-get install -y zsh
 sudo usermod -s /bin/zsh `whoami`
 
 MY_HOME=${HOME}
