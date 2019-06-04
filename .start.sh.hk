@@ -1,2 +1,2 @@
-alias hkpro="ssh -p 60002 root@jumpbox.huakai.me"
+alias hkpro="ssh -p 60022 root@jumpbox.huakai.me"
 alias hkdoc="cd ~/Works/hk/hk-docs/"
