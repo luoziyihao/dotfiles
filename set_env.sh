@@ -57,8 +57,11 @@ ln -fs ${DOTFILES}"/.vimrc_light" ${MY_HOME}"/.vimrc"
 ln -fs ${DOTFILES}"/.ycm_extra_conf.py" ${MY_HOME}"/.ycm_extra_conf.py"
 ln -fs ${DOTFILES}"/.zshrc" ${MY_HOME}"/.zshrc"
 ln -fs ${DOTFILES}"/.start.sh" ${MY_HOME}"/.start.sh"
-ln -fs ${DOTFILES}"/.start.sh.local" ${MY_HOME}"/.start.sh.local"
-ln -fs ${DOTFILES}"/.z" ${MY_HOME}"/.z"
+ln -fs ${DOTFILES}"/.start.sh.hk" ${MY_HOME}"/.start.sh.hk"
+touch ${MY_HOME}"/.start.sh.com.private"
+touch ${MY_HOME}"/.start.sh.local"
+
+cp
 ln -fs ${oh_my_zsh} ${oh_my_zsh_dest}
 # mvn mirror
 mkdir -p  ${MY_HOME}/.m2
