@@ -57,7 +57,7 @@ ln -fs ${DOTFILES}"/.vimrc_light" ${MY_HOME}"/.vimrc"
 ln -fs ${DOTFILES}"/.ycm_extra_conf.py" ${MY_HOME}"/.ycm_extra_conf.py"
 ln -fs ${DOTFILES}"/.zshrc" ${MY_HOME}"/.zshrc"
 ln -fs ${DOTFILES}"/.start.sh" ${MY_HOME}"/.start.sh"
-ln -fs ${DOTFILES}"/.start.sh.hk" ${MY_HOME}"/.start.sh.hk"
+cp ${DOTFILES}"/.start.sh.hk" ${MY_HOME}"/.start.sh.hk"
 touch ${MY_HOME}"/.start.sh.com.private"
 touch ${MY_HOME}"/.start.sh.local"
 
