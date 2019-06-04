@@ -61,7 +61,6 @@ ln -fs ${DOTFILES}"/.start.sh.hk" ${MY_HOME}"/.start.sh.hk"
 touch ${MY_HOME}"/.start.sh.com.private"
 touch ${MY_HOME}"/.start.sh.local"
 
-cp
 ln -fs ${oh_my_zsh} ${oh_my_zsh_dest}
 # mvn mirror
 mkdir -p  ${MY_HOME}/.m2
