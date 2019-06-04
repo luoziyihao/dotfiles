@@ -16,7 +16,7 @@ sudo chmod  -R 755  /usr/local/share/zsh
 
 # cmd
 cd ~/Works/MY_PROJECT/
-git clone https://github.com/luoziyihao/shellManage.git 
+git clone git@github.com:luoziyihao/shellManage.git
 cd ./shellManage
 ln -fs $(pwd)/p /usr/local/bin/por
 ln -fs $(pwd)/r /usr/local/bin/rer
