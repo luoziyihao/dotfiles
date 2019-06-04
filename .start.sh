@@ -8,7 +8,7 @@ alias cdxmind="cd /usr/local/share/xmind/xmind-8-linux/XMind_amd64"
 alias cdilog="cd /home/luoziyihao/.IntelliJIdea2017.2/system/tomcat/"
 alias mvn3="/usr/local/share/maven/default/bin/mvn -s ~/.m2/settings.ali.xml "
 alias vpncc="sudo vpnc-connect"
-alias fcps="gaa && gcmsg 'force push' &&ggpush"
+alias fcps="gaa && gcmsg 'fix' &&ggpush"
 
 export CATALINA_BASE=/usr/local/share/tomcat/default/logs
 export PATH=/usr/local/share/git_tools/bin:$PATH
