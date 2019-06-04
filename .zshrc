@@ -116,6 +116,7 @@ alias cr="mkdir -p /tmp/empty && rsync --delete-before  -aHv --progress  --stats
 alias dudu="ls -a  |sed -e '/^.$/d' -e '/^..$/d' | xargs -i du -ms {}|sort -n |tee "/tmp/.capacity.`date  "+%Y-%m-%d_%H-%M-%S"`.log""
 alias jude="java -jar /usr/local/share/jude/default/jude-community.jar  > /dev/null &"
 alias idea="nohup /usr/local/share/idea/default/bin/idea.sh >> /tmp/idea.log 2>&1 &"
+alias mvn="mvn -s /home/luoziyihao/.m2/settings.ali.xml "
 #alias end
 #
 # environment start
