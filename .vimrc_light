@@ -643,3 +643,10 @@ map <leader>md <Esc>:MarkdownPreview<CR>
 "这个命令在配置文件里面设置貌似并没有什么用 只有每次收到打开自己设置
 "设置新增文件的默认模式 为unix .unix默认的换行符和unix不一样
 
+" 为mac os x 终端操作替换剪贴板. 复制操作直接使用 系统剪贴板
+if has('gui_running')
+else
+    vmap y :w !pbcopy<CR><CR>
+    nmap yy :.w !pbcopy<CR><CR>
+    nmap p :r !pbpaste<CR><CR>
+endif
