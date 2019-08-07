@@ -170,3 +170,6 @@ export M3_HOME=/usr/local/share/mvn/default/bin
 export CATALINA_BASE=/usr/local/share/tomcat/default/logs
 export PATH=/usr/local/share/git_tools/bin:$PATH
 export PATH=/usr/local/share/mvn/default/bin:$PATH
+
+# add for mac: To use the assemblies from other formulae you need to set:
+export MONO_GAC_PREFIX="/usr/local"
