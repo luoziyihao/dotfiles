@@ -139,9 +139,25 @@ export TESSDATA_PREFIX=/usr/local/share/tessdata
 
 export PATH=/usr/local/n/versions/node/defalut/bin:$PATH
 
+
+# add for nvm
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+export NVM_NODEJS_ORG_MIRROR=https://npm.taobao.org/mirrors/node
+
+
+export M3_HOME=/usr/local/share/mvn/default/bin
+export CATALINA_BASE=/usr/local/share/tomcat/default/
+export PATH=/usr/local/share/git_tools/bin:$PATH
+export PATH=/usr/local/share/mvn/default/bin:$PATH
+
+# add for mac: To use the assemblies from other formulae you need to set:
+export MONO_GAC_PREFIX="/usr/local"
+
 # environment end
 #
-# script start
+################################################### script start
 #
 #echo $PASSWORD  | sudo -S xxx $1
 #ibus-daemon -d -x -r
@@ -159,17 +175,5 @@ dircolors_solarized_dest=$MY_HOME"/.dir_colors"
 # mk dircolorsdb
 
 source ${MY_HOME}/.start.sh
-# script start end
+################################################### script start end
 
-# export NVM_DIR="$HOME/.nvm"
-# export NVM_NODEJS_ORG_MIRROR=https://npm.taobao.org/mirrors/node
-# [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-
-
-export M3_HOME=/usr/local/share/mvn/default/bin
-export CATALINA_BASE=/usr/local/share/tomcat/default/logs
-export PATH=/usr/local/share/git_tools/bin:$PATH
-export PATH=/usr/local/share/mvn/default/bin:$PATH
-
-# add for mac: To use the assemblies from other formulae you need to set:
-export MONO_GAC_PREFIX="/usr/local"
