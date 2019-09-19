@@ -3,6 +3,7 @@ source ~/.start.sh.local
 source ~/.start.sh.com.private
 source ~/.start.sh.hk
 alias sshone="ssh luoziyihao@one.luoziyihao.com"
+alias sshone="ssh root@vpn.luoziyihao.com"
 alias xmind="nohup /usr/local/share/xmind/xmind-8-linux/XMind_amd64/XMind > /dev/null &"
 alias cdxmind="cd /usr/local/share/xmind/xmind-8-linux/XMind_amd64"
 alias cdilog="cd /home/luoziyihao/.IntelliJIdea2017.2/system/tomcat/"
