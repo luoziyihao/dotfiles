@@ -2,6 +2,7 @@
 source ~/.start.sh.local
 source ~/.start.sh.com.private
 source ~/.start.sh.hk
+source ~/.start.sh.local.private
 alias sshone="ssh luoziyihao@one.luoziyihao.com"
 alias sshvpn="ssh root@vpn.luoziyihao.com"
 alias xmind="nohup /usr/local/share/xmind/xmind-8-linux/XMind_amd64/XMind > /dev/null &"
