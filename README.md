@@ -7,8 +7,7 @@ my ubuntu editor environment cfg.
 branch:
 ```
 master is for pc
-public is for server
-purge is for windows
+mac is for mac
 ```
 
 ### use it
@@ -41,7 +40,7 @@ stth dk
 
 ### use mvn settings.xml
 ```
-clean package deploy -s /etc/maven/settings.xml
+mvn clean package deploy -s /etc/maven/settings.xml
 ```
 ### thanks for having read it.
 
